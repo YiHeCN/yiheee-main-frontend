@@ -1,24 +1,20 @@
 {
-  "name": "yiheee-main-frontend",
-  "version": "1.0.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
-  },
-  "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "postcss": "^8.4.17"
+    "@nuxt/icon": "^1.9.0",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
